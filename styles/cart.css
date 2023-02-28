@@ -1,0 +1,25 @@
+.admin {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+  }
+  .admin a {
+    display: block;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px 3px;
+    background-color: brown;
+    color: white;
+  }
+  .table 
+  {
+    width: 98%;
+    border: solid 1px lightgray;
+    border-collapse: collapse;
+   
+  }
+  .table th, td {
+    padding: .5rem;
+    border: solid 1px lightgray;
+  }

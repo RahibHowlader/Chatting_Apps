@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="styles/admin.css">
+    <script src="scripts/admin.js"></script>
+  </head>
+  <body>
+    <nav id="nav">
+      <span class="brand">Birds Shop</span>
+      <span class="fixer"></span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="e-commerce.html">E-commerce</a></li>
+        <li><a href="chatting.html">Chatting</a></li>
+      </ul>
+    </nav>
+    <div class="container main">
+      <div class="two-col-row">
+        <div class="col50">
+          <h3>Products</h3>
+          <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+          </table>
+        </div>
+        <div class="col50">
+          <h3>Create new</h3>
+          <form id="f">
+            <div class="frow">
+              <input
+                type="text"
+                placeholder="product name"
+                id="name"
+                required
+              />
+            </div>
+            <div class="frow">
+              <input type="number" placeholder="price.." id="price" required />
+            </div>
+            <div class="frow">
+              <textarea
+                placeholder="brief description"
+                id="desc"
+                required
+              ></textarea>
+            </div>
+            <div class="frow">
+              <input type="file" id="pic" required />
+            </div>
+            <div class="frow">
+              <button type="submit" class="btn">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>&copy; Copyright 2022</p>
+    </footer>
+  </body>
+</html>

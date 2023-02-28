@@ -1,0 +1,29 @@
+.two-col-row {
+    display: flex;
+    margin: 15px 0;
+  }
+  .col50 {
+    width: 50%;
+  }
+  .frow {
+    margin-bottom: 0.5rem;
+    display: flex;
+  }
+  .frow input[type="text"],
+  input[type="number"],
+  textarea {
+    flex: 1 1 auto;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  .table 
+  {
+    width: 98%;
+    border: solid 1px lightgray;
+    border-collapse: collapse;
+   
+  }
+  .table th, td {
+    padding: .5rem;
+    border: solid 1px lightgray;
+  }
